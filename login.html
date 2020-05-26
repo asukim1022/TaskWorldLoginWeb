@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>sample</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+	<div class="loginSec_login">
+		<h3>Log In</h3>
+		<div class="loginSec_login_div">
+			<input class="loginInput loginEmailInput" type="email" placeholder="Email address">
+			<div class="loginEmailInput_error">
+				<span>
+					<img src="images/ic_close_white_24dp.png" alt="">
+				</span>
+				<p>Please enter your email address.</p>
+			</div>
+		</div>
+		<div class="loginSec_login_div">
+			<input class="loginInput loginPWInput" type="password" placeholder="Password">
+			<div class="loginPWInput_error">
+				<span>
+					<img src="images/ic_close_white_24dp.png" alt="">
+				</span>
+				<p>Enter your password (at least 6 characters).</p>
+			</div>
+		</div>
+		<button>Log In</button>
+		<div class="loginSec_login_div">
+			<h5 class="login_resetBtn">Reset password</h5>
+			<h5>Sign Up</h5>
+		</div>
+	</div>
+
+	<div class="loginSec_reset">
+		<h3>Reset Password</h3>
+		<input class="loginInput resetEmailInput" type="email" placeholder="Email">
+		<button disabled="disabled">Submit</button>
+		<div>
+			<span class="reset_loginBtn">Log In</span>
+			<span>Sign Up</span>
+		</div>
+	</div>
+
+	<div class="loginBG"></div>
+
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
